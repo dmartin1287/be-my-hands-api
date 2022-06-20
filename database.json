@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Derek Brown",
+      "email": "dbrown@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Bella Thorne",
+      "email": "bthorne1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Christina Miller",
+      "email": "cmiller@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Elizabeth Passfield",
+      "email": "epassfield7@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Frank Barnes",
+      "email": "fbarnes@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Ellen Slator",
+      "email": "eslator@bemyhands.org",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "fullName": "Katrina Mullens",
+      "isStaff": true,
+      "email": "Kmullens@bemyhands.org"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "phoneNumber": "852-837-9713",
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "address": "56849 Riverview Lane",
+      "phoneNumber": "202-244-7090",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "phoneNumber": "(507) 720-1157",
+      "userId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "specialty": "General/ Performance Interpreting services",
+      "rate": 96.47,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "specialty": "Health, Mental Health Interpreting services",
+      "rate": 97.39,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "specialty": "Legal and Education Interpreting Services",
+      "rate": 95.45,
+      "userId": 6
+    }
+  ],
+  "serviceTickets": [
+    {
+      "userId": 1,
+      "clientName": "Random",
+      "companyName": "Random Company",
+      "location": "Random address",
+      "description": "Random Problem",
+      "eventTypeId": 1,
+      "emergency": true,
+      "dateCompleted": "2022-06-19T15:18:23.087Z",
+      "id": 1
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": 1,
+      "eventType": "Medical"
+    },
+    {
+      "id": 2,
+      "eventType": "Legal"
+    },
+    {
+      "id": 3,
+      "eventType": "Performance"
+    },
+    {
+      "id": 4,
+      "eventType": "Education"
+    },
+    {
+      "id": 5,
+      "eventType": "General"
+    }
+  ],
+  "employeeTickets": [
+    {
+      "employeeId": 1,
+      "serviceTicketId": 1,
+      "id": 1
+    }
+  ]
+}
